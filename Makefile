@@ -6,7 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_VERSION:=0.4.0-r2
+PKG_VERSION:=0.4.0
+PKG_RELEASE:=3
 LUCI_TITLE:=Temperature sensors data for the LuCI status page
 LUCI_DEPENDS:=+lua +luci-lib-nixio +luci-lib-jsonc
 LUCI_PKGARCH:=all
